@@ -373,7 +373,7 @@
 
 ### 常见问题
 
-有问题？欢迎 [提 Issue](https://github.com/你的用户名/home-grock/issues) 或加入讨论！
+有问题？欢迎 [提 Issue](../../issues) 或 [加入讨论](../../discussions)！
 
 ---
 
