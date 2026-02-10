@@ -138,14 +138,19 @@
 
 ### 📦 物品管理 - 扫码记录，避免浪费
 
-![物品管理](screenshots/mini-item-list.png)
+<div align="center">
+  <img src="screenshots/home-dashboard.png" width="280" alt="首页">
+  <img src="screenshots/item-list.png" width="280" alt="物品列表">
+  <img src="screenshots/item-detail.png" width="280" alt="物品详情">
+</div>
+
+<div align="center">
+  <img src="screenshots/add-item.png" width="280" alt="添加物品">
+</div>
 
 ```
 买东西 → 扫条码 → AI识别 → 自动记录 → 快过期提醒 → 及时用掉
 ```
-
-**真实案例**：王女士（30岁，杭州）
-> "我家药箱有20多种药，之前经常过期。用了Home Grock后，快过期会提醒，现在都提前用掉了。算了一下，**一年省了500多块**。"
 
 **支持识别**：
 - 商品条形码（超市购物扫码）
@@ -153,16 +158,40 @@
 - AI拍照识别（没有条码也能识别）
 - 小票批量导入（超市小票拍照自动提取）
 
+### 🔍 扫码识别 - 一扫即录
+
+<div align="center">
+  <img src="screenshots/scan-barcode.png" width="280" alt="扫码识别">
+  <img src="screenshots/scan-barcode2.png" width="280" alt="扫码结果">
+  <img src="screenshots/ai-recognition.png" width="280" alt="AI识别结果">
+</div>
+
+```
+打开扫码 → 对准条码 → 自动识别 → 填充信息 → 保存
+```
+
+### 🤖 AI过期提醒 - 再也不浪费
+
+<div align="center">
+  <img src="screenshots/expiring-items.png" width="280" alt="AI过期提醒">
+  <img src="screenshots/stats-overview.png" width="280" alt="智能仓库">
+</div>
+
+- AI智能提醒（告诉你哪些物品快过期了）
+- AI购物建议（根据库存给出建议）
+- 智能仓库分析（物品分布、分类统计）
+
 ### 💰 财务记账 - AI识别，自动分类
 
-![AI小票识别](screenshots/mini-ocr.png)
+<div align="center">
+  <img src="screenshots/billing-dashboard.png" width="280" alt="财务首页">
+  <img src="screenshots/ocr-receipt.png" width="280" alt="AI识别">
+  <img src="screenshots/billing-analysis.png" width="280" alt="财务报表">
+</div>
 
 ```
 拍小票 → AI识别 → 自动导入 → 智能分类 → 查看分析 → 找出浪费
 ```
-
-**真实案例**：李先生（28岁，北京）
-> "以前记账太麻烦，现在拍张照片就行。我发现我**每月外卖2000块**，调整后省了一半，多还了债。"
 
 **支持导入**：
 - AI小票识别（拍照自动提取）
@@ -172,14 +201,19 @@
 
 ### 📊 债务管理 - 理清欠款，早日上岸
 
-![债务总览](screenshots/mini-debt-overview.png)
+<div align="center">
+  <img src="screenshots/debt-overview.png" width="280" alt="财务分析">
+  <img src="screenshots/loan-detail.png" width="280" alt="贷款详情">
+  <img src="screenshots/repayment-plan.png" width="280" alt="还款计划">
+</div>
+
+<div align="center">
+  <img src="screenshots/prepayment-calc.png" width="280" alt="提前还款计算">
+</div>
 
 ```
 记录贷款 → 自动生成还款计划 → 每月提醒 → 提前还款计算 → 优化策略
 ```
-
-**真实案例**：张女士（32岁，深圳）
-> "我有3张信用卡分期，之前搞不清。现在一目了然，还帮我算出**提前还款能省1200块利息**。"
 
 **支持债务类型**：
 - 信用卡分期
@@ -195,16 +229,44 @@
 - 到期还本付息
 - 灵活还款
 
-![还款计划](screenshots/mini-repayment-plan.png)
+### 📈 现金流预测 - 避免断流
 
-### 📈 数据分析 - 找出浪费，优化开支
+<div align="center">
+  <img src="screenshots/cashflow-forecast.png" width="280" alt="现金流预测">
+  <img src="screenshots/transaction-list.png" width="280" alt="交易详情">
+</div>
 
-![现金流预测](screenshots/mini-cashflow.png)
+- 推演未来12个月现金流
+- 提前预警资金缺口
+- 每月收入、支出、还款一目了然
 
-- 每月消费分析（钱都花在哪了？）
-- 物品过期统计（浪费了多少？）
-- 债务还款进度（还有多少期？）
-- 现金流预测（会不会断流？）
+### 🗂️ 更多功能
+
+<div align="center">
+  <img src="screenshots/inventory-check.png" width="280" alt="资产盘点">
+  <img src="screenshots/print-label.png" width="280" alt="标签生成">
+  <img src="screenshots/family-members.png" width="280" alt="家庭成员">
+</div>
+
+- **资产盘点**：年终大扫除，扫码确认，自动对比差异
+- **标签生成**：批量生成二维码标签，贴在物品上方便管理
+  - 每个物品都有唯一二维码
+  - 扫码即可查看物品详情
+  - 支持批量生成和打印
+- **家庭协作**：邀请家人一起管理，数据共享
+
+### 📱 物资二维码
+
+<div align="center">
+  <img src="screenshots/product-qrcode.jpg" width="200" alt="物资二维码">
+  <p><strong>👆 物品标签示例</strong></p>
+</div>
+
+每个物品都有独一无二的二维码，扫一扫就能看到：
+- 物品名称、分类、位置
+- 购买日期、过期日期
+- 数量、单价、总价
+- 保存记录、编辑物品
 
 ---
 
@@ -259,14 +321,18 @@
 
 <div align="center">
   <img src="screenshots/wechat-qrcode.jpg" width="200" alt="微信小程序二维码">
-  <p>扫码体验</p>
+  <p><strong>👆 用微信扫一扫</strong></p>
 </div>
 
 ```
 扫码 → 授权登录 → 立即开始
 ```
 
-**优势**：随时随地使用，手机扫码很方便
+**优势**：
+- 随时随地使用
+- 手机扫码很方便
+- 无需安装 App
+- 自动保存数据到云端
 
 ### Web管理后台
 
@@ -274,7 +340,26 @@
 
 **优势**：大屏幕操作，数据分析更强大
 
-![Web管理后台](screenshots/web-dashboard.png)
+**登录方式**：
+- 🔐 账号密码登录
+- 📱 小程序扫码登录（推荐，无需记密码）
+
+<div align="center">
+  <img src="screenshots/web-dashboard.png" width="400" alt="Web管理后台首页">
+  <img src="screenshots/web-item-list.png" width="400" alt="Web物品列表">
+  <img src="screenshots/web-expiring-reminder.png" width="400" alt="Web过期提醒">
+</div>
+
+<div align="center">
+  <img src="screenshots/web-shopping-list.png" width="400" alt="Web购物清单">
+  <img src="screenshots/web-archived-items.png" width="400" alt="Web归档物品">
+  <img src="screenshots/web-billing-analysis.png" width="400" alt="Web财务分析">
+</div>
+
+<div align="center">
+  <img src="screenshots/web-login-qrcode.png" width="400" alt="Web扫码登录">
+  <p>👆 用小程序扫二维码，一键登录 Web 管理后台</p>
+</div>
 
 ---
 
@@ -284,22 +369,11 @@
 
 - [3分钟快速上手](docs/guides/quick-start.md)
 - [物品管理指南](docs/guides/item-management.md) - 如何扫码记录物品
-- [过期提醒设置](docs/guides/expiry-reminder.md) - 如何避免过期浪费
 - [债务管理指南](docs/guides/debt-management.md) - 如何理清债务
-- [记账指南](docs/guides/billing-guide.md) - 如何用AI记账
-
-### 真实案例
-
-- [如何避免药品过期浪费](docs/cases/medicine-waste.md)
-- [厨房调料不再过期](docs/cases/kitchen-organize.md)
-- [一年省出3000块](docs/cases/save-money.md)
-- [18个月还清债务](docs/cases/debt-free.md)
 
 ### 常见问题
 
-- [FAQ - 物品管理](docs/FAQ-items.md)
-- [FAQ - 财务记账](docs/FAQ-billing.md)
-- [FAQ - 数据安全](docs/FAQ-security.md)
+有问题？欢迎 [提 Issue](https://github.com/你的用户名/home-grock/issues) 或加入讨论！
 
 ---
 
@@ -345,8 +419,6 @@
 - 提建议（你希望有什么功能？）
 - 分享你的使用经验
 
-[👉 提交反馈](https://github.com/xxx/issues)
-
 ---
 
 ## 🗺️ 产品路线图
@@ -370,14 +442,10 @@
 
 ### 💡 计划中（投票决定）
 
-给你最想要的功能点赞 👍
-
-1. **食谱推荐** - AI根据快过期食材推荐菜谱 👍 **?**
-2. **采购提醒** - 常用物品快用完自动提醒 👍 **?**
-3. **闲置变现** - 闲置物品卖掉还债 👍 **?**
-4. **对接电商** - 一键下单补货 👍 **?**
-
-[👉 参与投票](https://github.com/xxx/discussions)
+1. **食谱推荐** - AI根据快过期食材推荐菜谱
+2. **采购提醒** - 常用物品快用完自动提醒
+3. **闲置变现** - 闲置物品卖掉还债
+4. **对接电商** - 一键下单补货
 
 ---
 
@@ -387,8 +455,6 @@
 - **后端**：Node.js + Express + MySQL
 - **AI服务**：硅基流动（DeepSeek + Qwen视觉模型）
 - **存储**：MinIO对象存储 + Redis缓存
-
-[查看详细架构文档](docs/technical/architecture.md)
 
 ---
 
@@ -408,14 +474,10 @@
 
 给个Star吧，这是对我最大的鼓励！
 
-[![GitHub stars](https://img.shields.io/github/stars/xxx/home-grock?style=social)](链接)
-
 ---
 
 ## 📧 联系方式
 
-- **GitHub Issues**：[问题反馈](https://github.com/xxx/issues)
-- **GitHub Discussions**：[社区讨论](https://github.com/xxx/discussions)
 - **更新日志**：[CHANGELOG.md](CHANGELOG.md)
 
 ---
@@ -424,4 +486,4 @@
 
 **许可证**：MIT
 
-**最后更新**：2026-02-09
+**最后更新**：2026-02-10
